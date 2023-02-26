@@ -25,7 +25,7 @@ const displayShow = (shows) => {
     for (let oneShow of shows) {
         if (oneShow.show.image) {
             const card = document.createElement('div');
-            card.className = 'card column is-2 m-3';
+            card.className = 'card column is-3 m-3';
 
             const cardImage = document.createElement('div');
             cardImage.className = 'card-image';
